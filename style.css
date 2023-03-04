@@ -1,0 +1,150 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 10%;
+    position: relative;
+  }
+  
+  nav #logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #4CAF50;
+  }
+  
+  /* Showcase Styles */
+  .showcase {
+    height: 90vh;
+    background-image: url('https://i.imgur.com/UGvN0WU.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .showcase p {
+    font-size: 1.5rem;
+  }
+  
+  /* About Styles */
+  .about {
+    padding: 10% 15%;
+    margin-bottom: 2rem;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  /* Portfolio Styles */
+  .portfolio {
+    padding: 10% 15%;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio li {
+    width: 30%;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .portfolio li img {
+    width: 300px;
+    border-radius: 50%;
+  }
+  
+  .portfolio li .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .portfolio li:hover .overlay {
+    opacity: 1;
+  }
+  
+  .portfolio li .overlay p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* add spacing between sections */
+section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  
+  
+  
+  
